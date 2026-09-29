@@ -31,6 +31,25 @@ git clone https://github.com/laogu-caibao/laogu-thesis.git
 - `mcp-config.json`：MCP 热更新配置
 - `MARKET.md`：市场调研
 
+## English
+
+**laogu-thesis — Investment thesis journal.** File your thesis with a date; when it expires the skill re-checks it against what actually happened — a built-in "was I right?" detector. Install: `npx skills add laogu-caibao/laogu-thesis`.
+
+## FAQ
+
+**Q：laogu-thesis 有什么用？**
+适合的场景：把自己的投资观点建档留存，到期自动回检「当初说的还成立吗」，用打脸检测倒逼纪律。
+
+**Q：数据可靠吗？会荐股吗？**
+数字必须来自可核验的公开来源（上市公司公告、交易所公开数据、公开网页），取不到就标「未核验」，绝不编造；只做结构化整理与解读，不构成投资建议。
+
+**Q：怎么安装？支持哪些 AI 平台？**
+```bash
+npx skills add laogu-caibao/laogu-thesis
+```
+平台中立 Markdown，Claude Code、Codex、豆包智能体、Workbuddy、扣子 Coze、Trae 等环境均可用；数据能力可用 [laogu-mcp](https://github.com/laogu-caibao/laogu-mcp)（`uvx laogu-mcp`）一次装齐。更多 skill 见[老谷拆财报组织主页](https://github.com/laogu-caibao)。
+---
+
 ## 出品：老谷拆财报
 
 以数据为刃，剖市场真相。
