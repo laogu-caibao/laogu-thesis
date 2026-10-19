@@ -1,5 +1,8 @@
 ---
 name: "laogu_thesis"
+slug: "laogu-thesis"
+version: "1.0.1"
+displayName: "观点追踪"
 description: "观点追踪：把你的投资观点建档留存，N 周后自动回检当初说的还成立吗（打脸检测）。核心判断/关键假设/证伪条件先写清楚，到期逐条对照事实判定成立、部分成立或被证伪，坦诚出打脸报告。"
 ---
 
